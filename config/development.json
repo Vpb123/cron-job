@@ -1,0 +1,20 @@
+{
+    "env": "development",
+    "loggingConfig": {
+        "name": "Cron-ms-dev",
+        "level": "debug",
+        "path": "log.txt",
+        "log_type": {
+            "critical": "Critical",
+            "error": "Error",
+            "trace": "Trace",
+            "audit": "Audit",
+            "warning": "Warning",
+            "info": "Info",
+            "debug": "Debug"
+        }
+    },
+    "cron_jobs": {
+        "observer_cron": "* * * * *"
+    }
+}
